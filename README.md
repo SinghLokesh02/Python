@@ -11,7 +11,6 @@ Welcome to the Python Programming Concepts Repository! This repository serves as
 3. [Concepts Covered](#concepts-covered)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
-6. [License](#license)
 
 ## Introduction
 
