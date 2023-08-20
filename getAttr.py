@@ -8,7 +8,7 @@ class Person:
     name = "Lokesh Singh"
     age = 21
     address = "Makhdoompur, Ambedkarnagar, UP"
-    contact = 7985218361
+    contact = 7985218363
     
 
 x = getattr(Person,'age')
