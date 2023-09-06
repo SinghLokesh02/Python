@@ -1,6 +1,8 @@
 # Python Programming Concepts Repository
 
-![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
+<p align="center">
+  <img src="https://source.unsplash.com/random/?coding,python" alt="C Logo" width="400" height="400">
+</p>
 
 Welcome to the Python Programming Concepts Repository! This repository serves as a comprehensive guide to understanding and mastering fundamental Python programming concepts. Whether you're a beginner looking to learn the basics or an experienced developer refreshing your knowledge, this repository has something for you.
 
