@@ -13,37 +13,9 @@ class Atm:
     def __init__(self) -> None:
         self.__balance = 0
         self.__pin = ""
-        self.Menu()
+        # self.Menu()
     
-    def Menu(self):
-        print(
-        """
-        ==============================
-        Welcome to Bank Management System
-        ==============================
-        """
-        )
-        time.sleep(1)
-        print("""
-              Hello, How would You like to Proceed
-               1 : Create Pin
-               2 : Deposit
-               3 : Withdrawal
-               4 : Check __Balance
-               5 : Exit
-              """)
-             
-        userinput = int(input("Enter Your Choice : "))
-        if userinput == 1:
-            self.CreatePin()
-        elif userinput == 2:
-            self.Deposit()
-        elif userinput == 3:
-            self.Withdrawal()
-        elif userinput == 4:
-            self.Check___Balance()
-        elif userinput == 5:
-            self.Done()
+   
 
     def CreatePin(self):
         pin = input("Enter Your Password : ")
@@ -88,4 +60,45 @@ class Atm:
 
 
 
-sbi = Atm()
+# Main Function
+if __name__ == "__main__":
+    My_bank_collection = {}
+    print(
+        """
+        =================================
+        Welcome to Bank Management System
+        =================================
+        """
+        )
+    time.sleep(1)
+    while True:
+        print("""
+                Hello, How would You like to Proceed
+                1 : Create Pin
+                2 : Deposit
+                3 : Withdrawal
+                4 : Check __Balance
+                5 : Exit
+                """)
+                
+        userinput = int(input("Enter Your Choice : "))
+        name = input("Enter Your Name : ")
+        if name not in My_bank_collection:
+            My_bank_collection[name] = Atm()
+        else:
+            print("Welcome Back", name)
+        if userinput == 5:
+            My_bank_collection[name].Done()
+            break
+        elif userinput == 1:
+            My_bank_collection[name].CreatePin()
+        elif userinput == 2:
+            My_bank_collection[name].Deposit()
+        elif userinput == 3:
+            My_bank_collection[name].Withdrawal()
+        elif userinput == 4:
+            My_bank_collection[name].Check___Balance()
+        
+    
+    
+    
