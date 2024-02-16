@@ -26,3 +26,40 @@ print(deep_copy)
 original_dict["b"][1] = 4
 print(original_dict)
 print(deep_copy)
+
+
+# Example 2
+
+# Shallow Copy
+
+# Creating a list
+arr = ["Lokesh","Sonali","Diwakar","Aniket","Ritik"]
+arr_new = arr
+
+print("Printing the list Before change")
+print("Arr : ",arr)
+print("New Arr : ",arr_new)
+
+arr_new[4] = "Akshay"
+
+print("\nPrinting the list After change")
+print("Arr : ",arr)
+print("New Arr : ",arr_new)
+
+# Deep Copy
+
+# Creating a list
+arr = ["Apple","Banana","Oranges","Red","Green"]
+arr_new = copy.deepcopy(arr)
+
+print("Printing the list Before change")
+print("Arr : ",arr)
+print("New Arr : ",arr_new)
+
+arr_new[4] = "Magenta"
+
+print("\nPrinting the list After change")
+print("Arr : ",arr)
+print("New Arr : ",arr_new)
+
+
