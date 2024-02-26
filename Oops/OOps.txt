@@ -1,0 +1,29 @@
+Class -> Collection of data and methods 
+
+                                                Class
+                                            /          \
+                                         Data           Function
+                                        or Property     or Behaviour
+
+Class name always be in PascalCase  -> ThisIsPascalCase
+                                       thisIsCamelCase
+
+Object -> These are the Instance of the Class
+Ex
+
+class Car -> Object (Wagnor, Swift, Innova, Celerio, Bolero)
+class Sports -> Object(Cricket, Volleyball, Badminton, Football)
+class Animal -> Object(Lion, Tiger, Monkey, Donkey, Dog, Cat, Ass)
+
+Function Vs methods
+
+Methods are special functions which are inside a class
+
+Ex - lst = [1,2,3,4]
+
+len(lst) -> This is function
+
+while
+lst.append(3) -> This is Method
+
+Instance variable -> These are the variabel which are defined in the constructor and these have different value for each Object
