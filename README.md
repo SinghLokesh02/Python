@@ -1,7 +1,7 @@
 # Python Programming Concepts Repository
 
 <p align="center">
-  <img src="https://source.unsplash.com/random/?coding,python" alt="C Logo" width="400" height="400">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" alt="Python GIF" width="400" height="400">
 </p>
 
 Welcome to the Python Programming Concepts Repository! This repository serves as a comprehensive guide to understanding and mastering fundamental Python programming concepts. Whether you're a beginner looking to learn the basics or an experienced developer refreshing your knowledge, this repository has something for you.
