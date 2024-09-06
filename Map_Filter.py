@@ -15,3 +15,19 @@ print(ans)
 # filter(function, iterable)
 ans = list(filter(checkEven,lst))
 print(ans)
+
+
+# Example - 2
+# Write a Program to check a string starts with A, a, S, or r.
+
+check = lambda s : (s.startswith("A") or s.startswith("a") or s.startswith("S") or s.startswith("r"))
+
+student_names = [
+    "Aarav Sharma", "Vivaan Mehta", "Ananya Gupta", "Diya Verma", "Riya Singh",
+    "Ishaan Patel", "Kavya Joshi", "Aryan Nair", "Nisha Kumar", "Siddharth Rao",
+    "Sneha Deshmukh", "Tara Kulkarni", "Aditya Ghosh", "Meera Kapoor", "Sahil Jain",
+    "Priya Menon", "Harsh Tiwari", "Sanya Chauhan", "Manav Reddy", "Aditi Shah"
+]
+
+ans = list(filter(check,student_names))
+print(ans)
